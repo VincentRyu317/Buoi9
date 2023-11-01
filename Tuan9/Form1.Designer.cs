@@ -1,0 +1,152 @@
+﻿namespace Tuan9
+{
+    partial class frm1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.lb_Khoa = new System.Windows.Forms.Label();
+            this.lb_MaLop = new System.Windows.Forms.Label();
+            this.lb_TenLop = new System.Windows.Forms.Label();
+            this.cbb_Khoa = new System.Windows.Forms.ComboBox();
+            this.btn_Add = new System.Windows.Forms.Button();
+            this.btn_Delete = new System.Windows.Forms.Button();
+            this.btn_Edit = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(147, 69);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(150, 20);
+            this.textBox2.TabIndex = 1;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(147, 110);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(150, 20);
+            this.textBox3.TabIndex = 2;
+            // 
+            // lb_Khoa
+            // 
+            this.lb_Khoa.AutoSize = true;
+            this.lb_Khoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_Khoa.Location = new System.Drawing.Point(34, 29);
+            this.lb_Khoa.Name = "lb_Khoa";
+            this.lb_Khoa.Size = new System.Drawing.Size(54, 24);
+            this.lb_Khoa.TabIndex = 3;
+            this.lb_Khoa.Text = "Khoa";
+            // 
+            // lb_MaLop
+            // 
+            this.lb_MaLop.AutoSize = true;
+            this.lb_MaLop.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_MaLop.Location = new System.Drawing.Point(34, 69);
+            this.lb_MaLop.Name = "lb_MaLop";
+            this.lb_MaLop.Size = new System.Drawing.Size(67, 24);
+            this.lb_MaLop.TabIndex = 4;
+            this.lb_MaLop.Text = "Mã lớp";
+            // 
+            // lb_TenLop
+            // 
+            this.lb_TenLop.AutoSize = true;
+            this.lb_TenLop.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_TenLop.Location = new System.Drawing.Point(34, 106);
+            this.lb_TenLop.Name = "lb_TenLop";
+            this.lb_TenLop.Size = new System.Drawing.Size(75, 24);
+            this.lb_TenLop.TabIndex = 5;
+            this.lb_TenLop.Text = "Tên lớp";
+            // 
+            // cbb_Khoa
+            // 
+            this.cbb_Khoa.FormattingEnabled = true;
+            this.cbb_Khoa.Location = new System.Drawing.Point(147, 29);
+            this.cbb_Khoa.Name = "cbb_Khoa";
+            this.cbb_Khoa.Size = new System.Drawing.Size(150, 21);
+            this.cbb_Khoa.TabIndex = 6;
+            // 
+            // btn_Add
+            // 
+            this.btn_Add.Location = new System.Drawing.Point(26, 152);
+            this.btn_Add.Name = "btn_Add";
+            this.btn_Add.Size = new System.Drawing.Size(75, 34);
+            this.btn_Add.TabIndex = 7;
+            this.btn_Add.Text = "Thêm";
+            this.btn_Add.UseVisualStyleBackColor = true;
+            this.btn_Add.Click += new System.EventHandler(this.cbb_Khoa_Load);
+            // 
+            // btn_Delete
+            // 
+            this.btn_Delete.Location = new System.Drawing.Point(147, 152);
+            this.btn_Delete.Name = "btn_Delete";
+            this.btn_Delete.Size = new System.Drawing.Size(75, 34);
+            this.btn_Delete.TabIndex = 8;
+            this.btn_Delete.Text = "Xóa";
+            this.btn_Delete.UseVisualStyleBackColor = true;
+            // 
+            // btn_Edit
+            // 
+            this.btn_Edit.Location = new System.Drawing.Point(277, 152);
+            this.btn_Edit.Name = "btn_Edit";
+            this.btn_Edit.Size = new System.Drawing.Size(75, 34);
+            this.btn_Edit.TabIndex = 9;
+            this.btn_Edit.Text = "Sửa";
+            this.btn_Edit.UseVisualStyleBackColor = true;
+            // 
+            // frm1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(380, 198);
+            this.Controls.Add(this.btn_Edit);
+            this.Controls.Add(this.btn_Delete);
+            this.Controls.Add(this.btn_Add);
+            this.Controls.Add(this.cbb_Khoa);
+            this.Controls.Add(this.lb_TenLop);
+            this.Controls.Add(this.lb_MaLop);
+            this.Controls.Add(this.lb_Khoa);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
+            this.Name = "frm1";
+            this.Text = "Quản lí Lớp";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label lb_Khoa;
+        private System.Windows.Forms.Label lb_MaLop;
+        private System.Windows.Forms.Label lb_TenLop;
+        private System.Windows.Forms.ComboBox cbb_Khoa;
+        private System.Windows

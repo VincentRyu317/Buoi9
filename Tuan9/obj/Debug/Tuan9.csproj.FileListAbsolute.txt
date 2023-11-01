@@ -1,0 +1,9 @@
+E:\LuuDuLieuSinhVien\2033210917_DoanTrongNhan\Tuan9\Tuan9\bin\Debug\Tuan9.exe.config
+E:\LuuDuLieuSinhVien\2033210917_DoanTrongNhan\Tuan9\Tuan9\obj\Debug\Tuan9.csprojResolveAssemblyReference.cache
+E:\LuuDuLieuSinhVien\2033210917_DoanTrongNhan\Tuan9\Tuan9\obj\Debug\Tuan9.frm1.resources
+E:\LuuDuLieuSinhVien\2033210917_DoanTrongNhan\Tuan9\Tuan9\obj\Debug\Tuan9.Properties.Resources.resources
+E:\LuuDuLieuSinhVien\2033210917_DoanTrongNhan\Tuan9\Tuan9\obj\Debug\Tuan9.csproj.GenerateResource.Cache
+E:\LuuDuLieuSinhVien\2033210917_DoanTrongNhan\Tuan9\Tuan9\bin\Debug\Tuan9.exe
+E:\LuuDuLieuSinhVien\2033210917_DoanTrongNhan\Tuan9\Tuan9\bin\Debug\Tuan9.pdb
+E:\LuuDuLieuSinhVien\2033210917_DoanTrongNhan\Tuan9\Tuan9\obj\Debug\Tuan9.exe
+E:\LuuDuLieuSinhVien\2033210917_DoanTrongNhan\Tuan9\Tuan9\obj\Debug\Tuan9.pdb
